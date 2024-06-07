@@ -85,7 +85,7 @@ public class Challenges {
   }
 
   public boolean isFirstChallenge(ChallengeDefinition challengeDefinition) {
-    return challengeDefinition.equals(definitions.challenges().get(0));
+    return challengeDefinition.equals(definitions.challenges().getFirst());
   }
 
   public boolean isLastChallenge(ChallengeDefinition challengeDefinition) {
